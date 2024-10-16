@@ -3,7 +3,10 @@ package com.example.apprrr;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -12,7 +15,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this, Principal1.class);
             startActivity(i);
         } else {
-            Toast.makeText(this, "Error en las redenciales", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Error en las credenciales", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -49,4 +55,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    }
+}
+
+
+
+
+
+

@@ -16,7 +16,9 @@
     <string name="latas">Latas</string>
     <string name="otrosresiduos">Otros residuos</string>
     <string name="btningresarimg">Ingresar imagen</string>
+    <string name="btneliminarimg">Eliminar imagen</string>
     <string name="btningresarcomentario">Ingresar cometario</string>
+    <string name="btneliminarcomentario">Eliminar cometario</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="abrir_drawer">Drawer Abierto</string>
     <string name="cerrar_drawer">Drawer Cerrado</string>
